@@ -1,4 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import CallPage from './componets/CallPage/CallPage'
+import HomePage from './componets/HomePage/HomePage'
+import NoMatch from './componets/NoMatch/NoMatch'
 import "./App.scss";
 
 function App() {

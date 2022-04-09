@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import CallPage from './componets/CallPage/CallPage'
 import HomePage from './componets/HomePage/HomePage'
-import NoMatch from './componets/NoMatch/NoMatch'
+// import NoMatch from './componets/NoMatch/NoMatch'
 import "./App.scss";
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
         <Route exact path="/">
           <HomePage />
         </Route>
-        <Route exact path="*">
+        {/* <Route exact path="*">
           <NoMatch />
-        </Route>
+        </Route> */}
       </Switch>
     </Router>
   );
